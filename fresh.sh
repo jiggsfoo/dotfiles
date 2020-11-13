@@ -15,7 +15,7 @@ brew tap homebrew/bundle
 brew bundle
 
 # Set default MySQL root password and auth type.
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'not4anyone'; FLUSH PRIVILEGES;"
 
 # Install PHP extensions with PECL
 pecl install memcached imagick
@@ -29,10 +29,6 @@ $HOME/.composer/vendor/bin/valet install
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
-
-# Create sites subdirectories
-mkdir $HOME/Sites/blade-ui-kit
-mkdir $HOME/Sites/laravel
 
 # Clone Github repositories
 ./clone.sh
