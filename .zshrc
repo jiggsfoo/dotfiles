@@ -12,8 +12,8 @@ autoload -Uz compinit && compinit
 
 # Minimal - Theme Settings
 export MNML_INSERT_CHAR="$"
-export MNML_PROMPT=(mnml_git mnml_keymap)
-export MNML_RPROMPT=('mnml_cwd 20')
+export MNML_PROMPT=('mnml_cwd 1 0' mnml_git mnml_keymap)
+export MNML_RPROMPT=(mnml_me_git)
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -79,7 +79,7 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git brew sudo artisan)
+plugins=(git brew sudo laravel)
 
 source $ZSH/oh-my-zsh.sh
 
