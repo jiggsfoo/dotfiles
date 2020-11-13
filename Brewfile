@@ -13,6 +13,7 @@ brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'circleci'
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'direnv'
 brew 'facebook/fb/idb-companion', link: false
 brew 'ffmpeg'
 brew 'getsentry/tools/sentry-cli'
@@ -80,7 +81,6 @@ cask 'istat-menus'
 cask 'iterm2'
 cask 'lastpass'
 cask 'ngrok'
-cask 'onyx'
 cask 'pdf-expert'
 cask 'react-native-debugger'
 cask 'rescuetime'
