@@ -1,27 +1,34 @@
 # Taps
+tap 'homebrew/bundle'
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
-tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/services'
+tap 'facebook/fb'
+tap 'getsentry/tools'
 
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
+brew 'circleci'
 brew 'coreutils' # Those that come with macOS are outdated
+brew 'facebook/fb/idb-companion', link: false
 brew 'ffmpeg'
-brew 'gh'
+brew 'getsentry/tools/sentry-cli'
 brew 'git'
+brew 'gitlab-runner'
 brew 'gnupg2'
 brew 'grep'
-brew 'httpie'
-brew 'hub'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'pre-commit'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe'
-brew 'svn'
 brew 'trash' # Manage the Trash bin
+brew 'thefuck'
 brew 'tree' # List directories in a tree structure
+brew 'watchman'
+brew 'wget'
 brew 'zlib' # Needed for Memcached
 
 # Spatie Medialibrary
@@ -32,52 +39,66 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'php'
+brew 'php', restart_service: true
 brew 'php@7.3'
 brew 'php@7.2'
+brew 'pipenv'
+brew 'cocoapods', link: false
 brew 'composer'
 brew 'imagemagick'
 brew 'libmemcached'
 brew 'memcached'
-brew 'mysql'
-brew 'nginx'
+brew 'mysql', restart_service: true
+brew 'nginx', restart_service: true
 brew 'node'
+brew 'nvm'
 brew 'redis'
 brew 'yarn'
 
 # Apps
-cask '1password'
 cask '1password-cli'
+cask '1password'
 cask 'aerial'
 cask 'alfred'
-cask 'caffeine'
-cask 'dbngin'
-cask 'discord'
+cask 'android-studio'
+cask 'authy'
+cask 'bunch'
+cask 'cheatsheet'
+cask 'cleanmymac'
+cask 'dash'
 cask 'docker'
+cask 'fantastical'
 cask 'figma'
 cask 'firefox'
-cask 'github'
-cask 'google-backup-and-sync'
+cask 'flipper'
+cask 'fork'
 cask 'google-chrome'
-cask 'gpg-suite'
+cask 'imagealpha'
 cask 'imageoptim'
 cask 'insomnia'
-cask 'notion'
-cask 'phpstorm'
-cask 'screenflow'
+cask 'istat-menus'
+cask 'iterm2'
+cask 'lastpass'
+cask 'ngrok'
+cask 'onyx'
+cask 'pdf-expert'
+cask 'react-native-debugger'
+cask 'rescuetime'
+cask 'selfcontrol'
+cask 'sketch'
 cask 'skype'
 cask 'slack'
-cask 'steam'
-cask 'sublime-text'
+cask 'spotify'
 cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
 cask 'tinkerwell'
-cask 'transmission'
 cask 'transmit'
+cask 'tunnelblick'
+cask 'viber'
 cask 'visual-studio-code'
 cask 'vlc'
-cask 'whatsapp'
+cask 'windscribe'
+cask 'wkhtmltopdf'
+cask 'zoomus'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -87,20 +108,36 @@ cask 'quicklook-csv'
 cask 'qlstephen'
 
 # Fonts
-cask 'font-lato'
 cask 'font-open-sans'
-cask 'font-roboto'
 cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
 # Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas "1Blocker", id: 1107421413
+mas "Affinity Designer", id: 824171161
+mas "Affinity Photo", id: 824183456
+mas "Amphetamine", id: 937984704
+mas "Be Focused", id: 973134470
+mas "Bear", id: 1091189122
+mas "Chronicle Pro", id: 1280542517
+mas "ColorSlurp", id: 1287239339
+mas "Developer", id: 640199958
+mas "Hour Blocks", id: 1456275153
+mas "JPEGmini Lite", id: 525742250
+mas "Keynote", id: 409183694
+mas "Magnet", id: 441258766
+mas "Messenger", id: 1480068668
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Microsoft Word", id: 462054704
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Powerpoint", id: 462062816
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "PiPifier", id: 1160374471
+mas "Soulver", id: 413965349
+mas "The Unarchiver", id: 425424353
+mas "Things", id: 904280696
+mas "Trello", id: 1278508951
+mas "Xcode", id: 497799835
