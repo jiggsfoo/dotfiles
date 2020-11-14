@@ -126,6 +126,7 @@ mas "Chronicle Pro", id: 1280542517
 mas "ColorSlurp", id: 1287239339
 mas "Developer", id: 640199958
 mas "Hour Blocks", id: 1456275153
+mas "Instapaper", id: 288545208
 mas "JPEGmini Lite", id: 525742250
 mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
