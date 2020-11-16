@@ -118,7 +118,7 @@ export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
 eval "$(direnv hook zsh)"
 
 # set JAVA_HOME
-# export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # set Android home
 export ANDROID_HOME=~/Library/Android/sdk

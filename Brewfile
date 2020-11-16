@@ -115,6 +115,9 @@ cask 'qlstephen'
 # cask 'font-source-sans-pro'
 # cask 'font-source-serif-pro'
 
+# Java
+cask 'oracle-jdk'
+
 # Mac App Store
 mas "1Blocker", id: 1107421413
 mas "Affinity Designer", id: 824171161
