@@ -14,3 +14,8 @@ export PATH="/Users/jiggsfoo/Library/Android/sdk/platform-tools:/Users/jiggsfoo/
 # I've disabled this for now because I only use "ls" which is
 # referenced in my aliases.zsh file directly.
 #export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+export PATH="/usr/local/sbin:$PATH"

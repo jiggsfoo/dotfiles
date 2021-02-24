@@ -25,6 +25,7 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pre-commit'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'svn'
 brew 'trash' # Manage the Trash bin
 brew 'thefuck'
 brew 'tree' # List directories in a tree structure
@@ -99,7 +100,7 @@ cask 'visual-studio-code'
 cask 'vlc'
 cask 'windscribe'
 cask 'wkhtmltopdf'
-cask 'zoomus'
+cask 'zoom'
 
 # Quicklook
 cask 'qlcolorcode'
