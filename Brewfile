@@ -7,8 +7,10 @@ tap 'homebrew/core'
 tap 'homebrew/services'
 tap 'facebook/fb'
 tap 'getsentry/tools'
+tap 'apparition47/tap'
 
 # Binaries
+brew 'apparition47/tap/mailtrackerblocker'
 brew 'awscli'
 brew 'bash' # Latest Bash version
 brew 'circleci'
