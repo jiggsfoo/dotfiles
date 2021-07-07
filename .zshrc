@@ -160,3 +160,10 @@ ARTISAN_OPEN_ON_MAKE_EDITOR=code
 
 # the fuck
 eval $(thefuck --alias)
+
+
+#### FIG ENV VARIABLES ####
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+
